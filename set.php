@@ -5,6 +5,12 @@
 
 	$API_KEY  = '';
 	$BOT_NAME = '';
-	$hook_url = '';
+	$hook_url = 'https://reinbot.herokuapp.com';
 	try {
-		$telegram 
+		$telegram = new Longman\TelegramBot\Telegram($API_KEY, $BOT_NAME);
+
+	}
+
+	echo 'lota';
+
+?>
